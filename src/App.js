@@ -4,7 +4,7 @@ import MovieCard from "./MovieCard";
 import SearchIcon from "./search.svg";
 import "./App.css";
 
-const API_URL = "https://www.themoviedb.org?apikey=527cb7c54eeb533625af7c69b7eddc10";
+const API_URL = "https://api.themoviedb.org/3/movie/11?api_key=527cb7c54eeb533625af7c69b7eddc10";
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
